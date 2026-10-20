@@ -21,3 +21,7 @@ elevated_log.txt
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Local runner scripts
+push_to_github.bat
+
