@@ -1,4 +1,6 @@
 # Hardware Investigation Case Study: Toshiba TransMemory (0930:6544)
+**ArcEdge Network** • **Rawishan** • [arcedge.lk](https://arcedge.lk)
+
 
 ## Target Device Specifications
 - **Device Description**: Generic Mass Storage USB Device (Reverted from OEM `TOSHIBA TransMemory`)

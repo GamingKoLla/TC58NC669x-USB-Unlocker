@@ -1,16 +1,30 @@
 # USB Flash Drive Recovery & Diagnostics Toolkit
 
-**Created by Rawishan** • **ArcEdge Network** • [arcedge.lk](https://arcedge.lk)
+<div align="center">
+
+### **Developed by Rawishan** • **ArcEdge Network** • [arcedge.lk](https://arcedge.lk)
+
+[![Author](https://img.shields.io/badge/Author-Rawishan-blue.svg)](https://arcedge.lk)
+[![Network](https://img.shields.io/badge/Network-ArcEdge%20Network-purple.svg)](https://arcedge.lk)
+[![Website](https://img.shields.io/badge/Website-arcedge.lk-green.svg)](https://arcedge.lk)
+
+</div>
 
 > [!CAUTION]
-> # 🔴 CRITICAL WARNING: RISK OF PERMANENT DATA LOSS
-> ### **BACK UP ALL VALUABLE DATA IMMEDIATELY BEFORE PROCEEDING!**
+> # 🛑 CRITICAL NOTICE: RISK OF PERMANENT DATA LOSS & HARDWARE FAILURE
+> ## ⚠️ STRONGLY RECOMMENDED: SECURE AND PROTECT YOUR DATA FIRST!
 > 
-> Low-level factory formatters, controller Mass Production (MP) tools, and direct SCSI sector manipulation tools in this repository operate below the operating-system level and **WILL PERMANENTLY AND IRREVERSIBLY DESTROY ALL DATA** on the target storage device.
->
-> - **Always verify drive letters and physical disk numbers.** Never target your primary system SSD or HDD.
-> - **ArcEdge Network, arcedge.lk, and the authors assume NO RESPONSIBILITY OR LIABILITY** for any lost data, bricked flash drives, hardware damages, or system corruption resulting from the use or misuse of these tools.
-> - **NO WARRANTY IS PROVIDED. USE ENTIRELY AT YOUR OWN RISK.**
+> **BEFORE EXECUTING ANY SCRIPT OR FACTORY TOOL IN THIS REPOSITORY, ENSURE COMPLETE PROTECTION AGAINST DATA LOSS.**
+> 
+> The tools included herein (low-level mass production formatters, controller ISP flashers, SCSI sector writers, and attribute clean tools) operate below the Windows operating system and bypass standard safety guards:
+> 
+> - **MANDATORY DATA BACKUP:** We strongly advise taking full backups and protection steps immediately. Any low-level format or ISP re-flash **WILL PERMANENTLY AND IRREVERSIBLY WIPE ALL STORED FILES AND PARTITIONS**.
+> - **UNKNOWN HARDWARE STATE:** We do not know what specific drive, controller revision, or NAND degradation state your device possesses. Flash hardware in read-only status is frequently experiencing physical silicon breakdown.
+> - **ZERO LIABILITY & NO RISK TAKEN:** Neither **Rawishan**, **ArcEdge Network**, nor **arcedge.lk** accept any liability or take any risks for:
+>   - Total or partial data loss.
+>   - Irreversibly bricked, dead, or unresponsive USB flash controllers.
+>   - Accidental selection or modification of host operating system drives (e.g., Disk 0 NVMe/SSD).
+> - **USE AT YOUR OWN RISK:** You are solely responsible for verifying disk indices, drive letters, and NAND compatibility. If you do not know the exact condition of your drive, do not proceed. NO WARRANTY IS EXPRESSED OR IMPLIED.
 
 A comprehensive diagnostic, hardware reverse-engineering, and mass-production toolkit for analyzing and recovering read-only or corrupted USB flash drives on Windows.
 
